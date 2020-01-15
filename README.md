@@ -43,8 +43,10 @@ Please click [here](https://docs.docker.com/compose/install/) to follow the guid
 ```npm install --save matomo-tracker```
 
 ## Step 5: Copy the methods:
-- From this repository copy the server/matomo.js and paste it in server directory of your meteor app(Linkwok).
-- Like previous step copy the client/matomo.js from this repository and paste it in client/js directory of your meteor app(Linkwok).
+Note: Skip the next two steps I have added a meteor package ```meteor add ssunnys:matomo```
+
+- DEPRECATED: From this repository copy the server/matomo.js and paste it in server directory of your meteor app(Linkwok).
+- DEPRECATED: Like previous step copy the client/matomo.js from this repository and paste it in client/js directory of your meteor app(Linkwok).
 - In settings.json create an object for this as well use following code.
     ```javascript 
 	"matomo": {
